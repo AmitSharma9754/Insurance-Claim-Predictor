@@ -1,27 +1,52 @@
-# 💰 Smart Insurance Claim Predictor
-*An AI-Powered Health Insurance Claim Estimation System*
+# Smart Insurance Claim Predictor
 
-This project is a **Machine Learning-powered Insurance Claim Prediction System** built using **Python, Streamlit, and Scikit-Learn**.
+![Application Preview](screenshots/prediction.png)
 
-The application allows users to securely log in, enter health-related information, visualize insurance trends, and receive accurate insurance claim amount predictions using a trained Random Forest Machine Learning model.
-
----
-
-## 🚀 Features
-
-- 🔐 Secure Login System
-- 🤖 AI-Powered Insurance Claim Prediction
-- 📊 Interactive Data Visualization Dashboard
-- 📈 Model Performance & Metrics Analysis
-- 🧾 Prediction History Tracking
-- 📉 Correlation Matrix & Statistical Insights
-- 🎨 Modern Streamlit User Interface
-- 💾 Local Data Storage
-- ⚡ Real-Time Prediction Results
+A machine learning-powered web application that predicts health insurance claim amounts using customer demographic and medical information. The project combines predictive analytics, interactive visualizations, and a user-friendly interface to provide insurance claim estimations in real time.
 
 ---
 
-## 📂 Project Structure
+## Overview
+
+Smart Insurance Claim Predictor is built using Python, Streamlit, and Scikit-Learn. The application uses a trained Random Forest Regression model to estimate insurance claim amounts based on factors such as age, BMI, smoking habits, blood pressure, diabetes status, and region.
+
+The system also includes interactive dashboards, model performance analysis, prediction tracking, and data visualization capabilities.
+
+---
+
+## Features
+
+* Insurance claim amount prediction
+* User authentication system
+* Interactive analytics dashboard
+* Data visualization using Plotly
+* Model performance evaluation
+* Prediction history tracking
+* Correlation analysis
+* Responsive Streamlit interface
+* Local data storage
+
+---
+
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Claim Prediction
+![Claim Prediction](screenshots/prediction.png)
+
+### Analytics Dashboard
+![Analytics Dashboard](screenshots/dashboard.png)
+
+### Model Performance & Metrics
+![Model Metrics](screenshots/model_metrics.png)
+
+### About & User Guide
+![About Page](screenshots/about_page.png)
+---
+
+## Project Structure
 
 ```text
 Insurance-Claim-Predictor/
@@ -31,221 +56,156 @@ Insurance-Claim-Predictor/
 ├── insurance_model.pkl
 ├── insurance_data.csv
 ├── customer_data.xlsx
-├── prediction_history.csv
 ├── requirements.txt
-└── README.md
+├── screenshots/
+│   ├── login.png
+│   ├── prediction.png
+│   ├── dashboard.png
+│   ├── model_metrics.png
+│   └── about_page.png
+│
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 🛠 Tech Stack
+## Technologies Used
 
-- Python 3.x
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-Learn
-- Plotly
-- Seaborn
-- Matplotlib
-- OpenPyXL
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-Learn
+* Plotly
+* Matplotlib
+* Seaborn
+* OpenPyXL
 
 ---
 
-## 📦 Installation & Setup
+## Machine Learning Model
 
-### 1️⃣ Clone the Repository
+### Algorithm
 
-Repository Link:
+Random Forest Regressor
 
-https://github.com/AmitSharma9754/Insurance-Claim-Predictor
+### Input Features
 
-Clone using Git:
+* Age
+* Gender
+* BMI
+* Blood Pressure
+* Diabetes Status
+* Number of Children
+* Smoking Status
+* Region
+
+### Engineered Features
+
+* Age × BMI
+* BMI × Blood Pressure
+* Age × Smoker
+
+### Model Evaluation Metrics
+
+The application includes model evaluation using:
+
+* R² Score
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+
+---
+
+## Installation
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
 cd Insurance-Claim-Predictor
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Application
+### Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
----
-
-## 📊 Application Modules
-
-| Module | Description |
-|----------|-------------|
-| Login System | Secure user authentication |
-| Claim Prediction | Predict insurance claim amount using ML |
-| Data Visualization | Interactive charts and analytics |
-| Model Metrics | R² Score, RMSE, MAE analysis |
-| Prediction History | Track previous predictions |
-| Dashboard | Summary statistics and insights |
+After running the command, Streamlit will automatically open the application in your browser.
 
 ---
 
-## 🧠 Machine Learning Model
+## Application Modules
 
-### Algorithm Used
+### User Authentication
 
-✅ Random Forest Regressor
+Provides secure access to the application through login verification.
 
-### Model Features
+### Claim Prediction
 
-- Age
-- Gender
-- BMI
-- Blood Pressure
-- Diabetes Status
-- Number of Children
-- Smoking Status
-- Region
-- Age × BMI
-- BMI × Blood Pressure
-- Age × Smoker
+Predicts insurance claim amounts using a trained machine learning model.
 
-### Model Performance
+### Data Visualization
 
-| Metric | Score |
-|----------|----------|
-| R² Score | 0.836 |
-| MAE | ₹3,576 |
-| RMSE | ₹4,703 |
+Interactive charts and graphs for exploring insurance data patterns.
+
+### Model Metrics
+
+Displays performance metrics and evaluation results.
+
+### Prediction History
+
+Stores and displays previously generated predictions.
+
+### About Section
+
+Provides project information, usage instructions, and disclaimer details.
 
 ---
 
-## 📈 Visual Analytics
+## How to Use
 
-The application includes:
-
-- Age vs Claim Analysis
-- BMI vs Claim Analysis
-- Claim Distribution
-- Gender Distribution
-- Diabetic Status Analysis
-- Smoker vs Claim Comparison
-- Correlation Heatmap
-- Prediction Trend Analysis
+1. Login using valid credentials.
+2. Navigate to the Prediction section.
+3. Enter customer information.
+4. Click **Predict Claim Amount**.
+5. Review the predicted insurance claim.
+6. Explore visualizations and model metrics.
 
 ---
 
-## 🧭 How to Use
+## Future Improvements
 
-### Step 1
-Login using valid credentials.
-
-### Step 2
-Navigate to the **Predict Claim** section.
-
-### Step 3
-Enter:
-
-- Age
-- Gender
-- BMI
-- Blood Pressure
-- Diabetes Status
-- Number of Children
-- Smoking Status
-- Region
-
-### Step 4
-Click:
-
-**Predict Claim Amount**
-
-### Step 5
-View:
-
-- Predicted Claim Amount
-- Risk Profile
-- Dataset Comparison
-- Historical Predictions
+* User registration system
+* Cloud database integration
+* PDF report generation
+* Advanced machine learning models
+* API integration
+* Multi-language support
 
 ---
 
-## 🖼 Screenshots
+## Disclaimer
 
-### 🔹 Login Dashboard
+This project was developed for educational and learning purposes.
 
-(Add Screenshot Here)
+Predicted insurance claim amounts are generated using a machine learning model trained on sample data and should not be considered official insurance decisions.
 
-### 🔹 Insurance Claim Prediction
-
-(Add Screenshot Here)
-
-### 🔹 Data Visualization Dashboard
-
-(Add Screenshot Here)
-
-### 🔹 Model Performance Dashboard
-
-(Add Screenshot Here)
+Users should consult qualified insurance professionals before making financial or healthcare-related decisions.
 
 ---
 
-## ⚠️ Disclaimer
+## Author
 
-This application is developed strictly for educational and demonstration purposes.
+**Amit Sharma**
 
-Insurance claim values generated by this system are based on machine learning predictions trained on a sample dataset and should not be considered actual insurance decisions.
+GitHub: https://github.com/AmitSharma9754
 
-Always consult licensed insurance professionals before making financial or healthcare-related decisions.
-
-The developer is not responsible for decisions made based on this application's predictions.
-
----
-
-## ⭐ Future Improvements
-
-- Cloud Database Integration
-- User Registration System
-- Advanced Deep Learning Models
-- Live Insurance APIs
-- PDF Report Generation
-- Multi-Language Support
-
----
-
-## 🤝 Contribution
-
-Contributions are welcome!
-
-You can help by:
-
-- Improving UI/UX
-- Optimizing ML Models
-- Adding More Visualizations
-- Fixing Bugs
-- Enhancing Security
-
----
-
-## 👨‍💻 Developers
-
-### Amit Sharma
-Data Science & Machine Learning Enthusiast
-
-### Jatin Pandey
-Project Contributor
-
----
-
-## 📧 Contact
-
-Email: amitsharma97545@gmail.com
-
-GitHub:
-https://github.com/AmitSharma9754
-
-⭐ If you found this project useful, consider giving it a star on GitHub!
+Email: [amitsharma97545@gmail.com](mailto:amitsharma97545@gmail.com)
