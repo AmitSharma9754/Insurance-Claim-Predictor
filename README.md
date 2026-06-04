@@ -187,10 +187,6 @@ streamlit run app.py
 ![Model Metrics](https://github.com/user-attachments/assets/67502f25-3afe-495d-93b1-67b0605b1738
 )
 
-### About & User Guide
-
-![About Page](https://github.com/user-attachments/assets/d8e11216-29f6-4fac-a21f-d3b818e577b0
-)
 
 ---
 
