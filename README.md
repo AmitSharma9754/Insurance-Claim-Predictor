@@ -3,12 +3,13 @@
 *A Machine Learning-Based Insurance Claim Estimation System*
 
 This project is a **Streamlit-based Insurance Claim Predictor** that provides:
-✔ Insurance claim amount prediction
-✔ Interactive analytics dashboard
-✔ Model performance evaluation
-✔ Prediction history tracking
-✔ Data visualization and insights
-✔ Secure user authentication
+
+- Insurance claim amount prediction
+- Interactive analytics dashboard
+- Model performance evaluation
+- Prediction history tracking
+- Data visualization and insights
+- Secure user authentication
 
 The system uses **Machine Learning**, **Insurance Datasets**, and **Interactive Visualizations** to estimate insurance claim amounts based on customer demographic and health-related information.
 
@@ -67,11 +68,8 @@ Insurance-Claim-Predictor/
 https://github.com/AmitSharma9754/Insurance-Claim-Predictor
 
 **Clone using Git:**
-
-```bash
 git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
 cd Insurance-Claim-Predictor
-```
 
 ### Install Dependencies
 
@@ -172,27 +170,27 @@ streamlit run app.py
 
 ### Home Page
 
-![Home Page](<img width="1117" height="917" alt="login" src="https://github.com/user-attachments/assets/9485d438-1033-42f1-9c41-e77b534cb78a" />
+![Home Page]("https://github.com/user-attachments/assets/9485d438-1033-42f1-9c41-e77b534cb78a" />
 )
 
 ### Insurance Claim Prediction
 
-![Prediction](<img width="1007" height="913" alt="prediction" src="https://github.com/user-attachments/assets/06e1e4c5-6201-4976-af4a-1ef490465d04" />
+![Prediction]("https://github.com/user-attachments/assets/06e1e4c5-6201-4976-af4a-1ef490465d04" />
 )
 
 ### Analytics Dashboard
 
-![Dashboard](<img width="921" height="868" alt="Dashboard" src="https://github.com/user-attachments/assets/d008297b-f400-42b7-91a8-f6fabbbd06b4" />
+![Dashboard]("https://github.com/user-attachments/assets/d008297b-f400-42b7-91a8-f6fabbbd06b4" />
 )
 
 ### Model Performance & Metrics
 
-![Model Metrics](<img width="927" height="957" alt="model_metrics" src="https://github.com/user-attachments/assets/67502f25-3afe-495d-93b1-67b0605b1738" />
+![Model Metrics]("https://github.com/user-attachments/assets/67502f25-3afe-495d-93b1-67b0605b1738" />
 )
 
 ### About & User Guide
 
-![About Page](<img width="912" height="1002" alt="about_page" src="https://github.com/user-attachments/assets/d8e11216-29f6-4fac-a21f-d3b818e577b0" />
+![About Page]("https://github.com/user-attachments/assets/d8e11216-29f6-4fac-a21f-d3b818e577b0" />
 )
 
 ---
