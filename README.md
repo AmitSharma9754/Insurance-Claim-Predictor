@@ -1,9 +1,8 @@
-# Smart Insurance Claim Predictor
+# Insurance Claim Predictor
 
 *A Machine Learning-Based Insurance Claim Estimation System*
 
-This project is a **Streamlit-based Insurance Claim Prediction System** that provides:
-
+This project is a **Streamlit-based Insurance Claim Predictor** that provides:
 ✔ Insurance claim amount prediction
 ✔ Interactive analytics dashboard
 ✔ Model performance evaluation
@@ -11,21 +10,21 @@ This project is a **Streamlit-based Insurance Claim Prediction System** that pro
 ✔ Data visualization and insights
 ✔ Secure user authentication
 
-The application uses a trained **Random Forest Regression Model**, insurance datasets, and interactive visualizations to estimate insurance claim amounts based on customer demographic and health-related information.
+The system uses **Machine Learning**, **Insurance Datasets**, and **Interactive Visualizations** to estimate insurance claim amounts based on customer demographic and health-related information.
 
 ---
 
 ## Features
 
 * Insurance claim amount prediction
-* User authentication system
 * Interactive analytics dashboard
-* Data visualization using Plotly
 * Model performance evaluation
-* Correlation analysis
 * Prediction history tracking
-* Responsive Streamlit interface
+* Data visualization using Plotly
+* Correlation analysis
+* User authentication system
 * Local data storage
+* Responsive Streamlit interface
 
 ---
 
@@ -64,11 +63,10 @@ Insurance-Claim-Predictor/
 
 ### Clone the Repository
 
-Repository Link:
-
+**Repository Link:**
 https://github.com/AmitSharma9754/Insurance-Claim-Predictor
 
-Clone using Git:
+**Clone using Git:**
 
 ```bash
 git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
@@ -83,33 +81,47 @@ pip install -r requirements.txt
 
 ### Run the Application
 
+Run the Streamlit application using:
+
 ```bash
 streamlit run app.py
 ```
 
 ---
 
-## Application Modules
+## Features & Modules
 
-| Module              | Description                                            |
+| Module / Section    | Description                                            |
 | ------------------- | ------------------------------------------------------ |
-| User Authentication | Secure login and access management                     |
-| Claim Prediction    | Predict insurance claim amounts using machine learning |
-| Analytics Dashboard | Interactive charts and business insights               |
-| Data Visualization  | Explore trends and patterns in insurance data          |
+| Claim Prediction    | Predicts insurance claim amount using machine learning |
+| Analytics Dashboard | Interactive charts and insurance insights              |
+| Data Visualization  | Visual exploration of insurance datasets               |
 | Model Evaluation    | R² Score, MAE, and RMSE analysis                       |
-| Prediction History  | Track previous predictions                             |
-| About Section       | User guide and project information                     |
+| Prediction History  | Tracks previous predictions                            |
+| User Authentication | Secure login system                                    |
+| About Section       | Project information and user guide                     |
 
 ---
 
-## Machine Learning Model
+## Technologies Used
 
-### Algorithm Used
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-Learn
+* Plotly
+* Matplotlib
+* Seaborn
+* OpenPyXL
 
-Random Forest Regressor
+---
 
-### Input Features
+## How to Use
+
+1. Login using valid credentials.
+
+2. Enter customer information:
 
 * Age
 * Gender
@@ -120,11 +132,27 @@ Random Forest Regressor
 * Smoking Status
 * Region
 
-### Engineered Features
+3. Click **Predict Claim Amount**
 
-* Age × BMI
-* BMI × Blood Pressure
-* Age × Smoker
+4. The application will generate:
+
+* Estimated Insurance Claim Amount
+* Prediction Summary
+* Data Insights
+
+5. Explore:
+
+* Analytics Dashboard
+* Model Metrics
+* Prediction History
+
+---
+
+## Machine Learning Model
+
+### Algorithm Used
+
+* Random Forest Regressor
 
 ### Evaluation Metrics
 
@@ -132,32 +160,27 @@ Random Forest Regressor
 * Mean Absolute Error (MAE)
 * Root Mean Squared Error (RMSE)
 
----
+### Feature Engineering
 
-## How to Use
-
-1. Login using valid credentials.
-2. Open the Prediction section.
-3. Enter customer information.
-4. Click **Predict Claim Amount**.
-5. View the predicted insurance claim.
-6. Explore analytics and model evaluation dashboards.
+* Age × BMI
+* BMI × Blood Pressure
+* Age × Smoker
 
 ---
 
 ## Screenshots
 
-### Login Page
+### Home Page
 
-![Login Page](PASTE_IMAGE_URL_HERE)
+![Home Page](PASTE_IMAGE_URL_HERE)
 
 ### Insurance Claim Prediction
 
-![Insurance Claim Prediction](PASTE_IMAGE_URL_HERE)
+![Prediction](PASTE_IMAGE_URL_HERE)
 
 ### Analytics Dashboard
 
-![Analytics Dashboard](PASTE_IMAGE_URL_HERE)
+![Dashboard](PASTE_IMAGE_URL_HERE)
 
 ### Model Performance & Metrics
 
@@ -169,38 +192,29 @@ Random Forest Regressor
 
 ---
 
-## Future Enhancements
-
-* User registration system
-* Cloud database integration
-* PDF report generation
-* Advanced machine learning models
-* API integration
-* Multi-language support
-
----
-
 ## Disclaimer
 
-This project has been developed for educational and demonstration purposes only.
+This application is created strictly for educational and learning purposes only.
 
-Insurance claim values generated by this application are based on machine learning predictions and should not be considered official insurance decisions.
+The insurance claim values generated by this system are machine learning predictions and should not be considered official insurance decisions.
 
-Users should consult qualified insurance professionals before making financial or healthcare-related decisions.
+For real insurance policies, claims, and financial decisions, users should consult authorized insurance professionals.
+
+The developer is not responsible for any decisions made based on the predictions generated by this application.
 
 ---
 
 ## Contribution
 
-Contributions are welcome.
+You can contribute by:
 
-Areas for improvement include:
+* Improving model accuracy
+* Enhancing the user interface
+* Adding new visualizations
+* Optimizing performance
+* Fixing bugs
 
-* User interface enhancements
-* Additional visualizations
-* Model optimization
-* New analytical features
-* Performance improvements
+Pull requests are welcome.
 
 ---
 
