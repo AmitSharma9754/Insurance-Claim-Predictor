@@ -170,27 +170,27 @@ streamlit run app.py
 
 ### Home Page
 
-![Home Page]("https://github.com/user-attachments/assets/9485d438-1033-42f1-9c41-e77b534cb78a" />
+![Home Page](https://github.com/user-attachments/assets/9485d438-1033-42f1-9c41-e77b534cb78a
 )
 
 ### Insurance Claim Prediction
 
-![Prediction]("https://github.com/user-attachments/assets/06e1e4c5-6201-4976-af4a-1ef490465d04" />
+![Prediction](https://github.com/user-attachments/assets/06e1e4c5-6201-4976-af4a-1ef490465d04
 )
 
 ### Analytics Dashboard
 
-![Dashboard]("https://github.com/user-attachments/assets/d008297b-f400-42b7-91a8-f6fabbbd06b4" />
+![Dashboard](https://github.com/user-attachments/assets/d008297b-f400-42b7-91a8-f6fabbbd06b4
 )
 
 ### Model Performance & Metrics
 
-![Model Metrics]("https://github.com/user-attachments/assets/67502f25-3afe-495d-93b1-67b0605b1738" />
+![Model Metrics](https://github.com/user-attachments/assets/67502f25-3afe-495d-93b1-67b0605b1738
 )
 
 ### About & User Guide
 
-![About Page]("https://github.com/user-attachments/assets/d8e11216-29f6-4fac-a21f-d3b818e577b0" />
+![About Page](https://github.com/user-attachments/assets/d8e11216-29f6-4fac-a21f-d3b818e577b0
 )
 
 ---
@@ -226,5 +226,5 @@ Pull requests are welcome.
 
 **Amit Sharma**   
 📩 Email: Amitsharma97545@gmail.com  
-🐙 GitHub: [https://github.com/AmitSharma9754/Personal-health-assistant](https://github.com/AmitSharma9754)
+🐙 GitHub: https://github.com/AmitSharma9754
 
