@@ -40,8 +40,7 @@ Insurance-Claim-Predictor/
 ├── insurance_data.csv
 ├── customer_data.xlsx
 ├── requirements.txt
-├── README.md
-└── .gitignore
+├── prediction_history
 ```
 
 ---
