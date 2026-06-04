@@ -1,16 +1,17 @@
 # Smart Insurance Claim Predictor
 
-![Application Preview](screenshots/prediction.png)
+*A Machine Learning-Based Insurance Claim Estimation System*
 
-A machine learning-powered web application that predicts health insurance claim amounts using customer demographic and medical information. The project combines predictive analytics, interactive visualizations, and a user-friendly interface to provide insurance claim estimations in real time.
+This project is a **Streamlit-based Insurance Claim Prediction System** that provides:
 
----
+✔ Insurance claim amount prediction
+✔ Interactive analytics dashboard
+✔ Model performance evaluation
+✔ Prediction history tracking
+✔ Data visualization and insights
+✔ Secure user authentication
 
-## Overview
-
-Smart Insurance Claim Predictor is built using Python, Streamlit, and Scikit-Learn. The application uses a trained Random Forest Regression model to estimate insurance claim amounts based on factors such as age, BMI, smoking habits, blood pressure, diabetes status, and region.
-
-The system also includes interactive dashboards, model performance analysis, prediction tracking, and data visualization capabilities.
+The application uses a trained **Random Forest Regression Model**, insurance datasets, and interactive visualizations to estimate insurance claim amounts based on customer demographic and health-related information.
 
 ---
 
@@ -21,29 +22,11 @@ The system also includes interactive dashboards, model performance analysis, pre
 * Interactive analytics dashboard
 * Data visualization using Plotly
 * Model performance evaluation
-* Prediction history tracking
 * Correlation analysis
+* Prediction history tracking
 * Responsive Streamlit interface
 * Local data storage
 
----
-
-## Screenshots
-
-### Login Page
-![Login Page](screenshots/login.png)
-
-### Claim Prediction
-![Claim Prediction](screenshots/prediction.png)
-
-### Analytics Dashboard
-![Analytics Dashboard](screenshots/dashboard.png)
-
-### Model Performance & Metrics
-![Model Metrics](screenshots/model_metrics.png)
-
-### About & User Guide
-![About Page](screenshots/about_page.png)
 ---
 
 ## Project Structure
@@ -57,22 +40,15 @@ Insurance-Claim-Predictor/
 ├── insurance_data.csv
 ├── customer_data.xlsx
 ├── requirements.txt
-├── screenshots/
-│   ├── login.png
-│   ├── prediction.png
-│   ├── dashboard.png
-│   ├── model_metrics.png
-│   └── about_page.png
-│
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-## Technologies Used
+## Tech Stack
 
-* Python
+* Python 3.x
 * Streamlit
 * Pandas
 * NumPy
@@ -84,9 +60,52 @@ Insurance-Claim-Predictor/
 
 ---
 
+## Installation & Setup
+
+### Clone the Repository
+
+Repository Link:
+
+https://github.com/AmitSharma9754/Insurance-Claim-Predictor
+
+Clone using Git:
+
+```bash
+git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
+cd Insurance-Claim-Predictor
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Application Modules
+
+| Module              | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| User Authentication | Secure login and access management                     |
+| Claim Prediction    | Predict insurance claim amounts using machine learning |
+| Analytics Dashboard | Interactive charts and business insights               |
+| Data Visualization  | Explore trends and patterns in insurance data          |
+| Model Evaluation    | R² Score, MAE, and RMSE analysis                       |
+| Prediction History  | Track previous predictions                             |
+| About Section       | User guide and project information                     |
+
+---
+
 ## Machine Learning Model
 
-### Algorithm
+### Algorithm Used
 
 Random Forest Regressor
 
@@ -107,9 +126,7 @@ Random Forest Regressor
 * BMI × Blood Pressure
 * Age × Smoker
 
-### Model Evaluation Metrics
-
-The application includes model evaluation using:
+### Evaluation Metrics
 
 * R² Score
 * Mean Absolute Error (MAE)
@@ -117,71 +134,42 @@ The application includes model evaluation using:
 
 ---
 
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
-cd Insurance-Claim-Predictor
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Application
-
-```bash
-streamlit run app.py
-```
-
-After running the command, Streamlit will automatically open the application in your browser.
-
----
-
-## Application Modules
-
-### User Authentication
-
-Provides secure access to the application through login verification.
-
-### Claim Prediction
-
-Predicts insurance claim amounts using a trained machine learning model.
-
-### Data Visualization
-
-Interactive charts and graphs for exploring insurance data patterns.
-
-### Model Metrics
-
-Displays performance metrics and evaluation results.
-
-### Prediction History
-
-Stores and displays previously generated predictions.
-
-### About Section
-
-Provides project information, usage instructions, and disclaimer details.
-
----
-
 ## How to Use
 
 1. Login using valid credentials.
-2. Navigate to the Prediction section.
+2. Open the Prediction section.
 3. Enter customer information.
 4. Click **Predict Claim Amount**.
-5. Review the predicted insurance claim.
-6. Explore visualizations and model metrics.
+5. View the predicted insurance claim.
+6. Explore analytics and model evaluation dashboards.
 
 ---
 
-## Future Improvements
+## Screenshots
+
+### Login Page
+
+![Login Page](PASTE_IMAGE_URL_HERE)
+
+### Insurance Claim Prediction
+
+![Insurance Claim Prediction](PASTE_IMAGE_URL_HERE)
+
+### Analytics Dashboard
+
+![Analytics Dashboard](PASTE_IMAGE_URL_HERE)
+
+### Model Performance & Metrics
+
+![Model Metrics](PASTE_IMAGE_URL_HERE)
+
+### About & User Guide
+
+![About Page](PASTE_IMAGE_URL_HERE)
+
+---
+
+## Future Enhancements
 
 * User registration system
 * Cloud database integration
@@ -194,18 +182,32 @@ Provides project information, usage instructions, and disclaimer details.
 
 ## Disclaimer
 
-This project was developed for educational and learning purposes.
+This project has been developed for educational and demonstration purposes only.
 
-Predicted insurance claim amounts are generated using a machine learning model trained on sample data and should not be considered official insurance decisions.
+Insurance claim values generated by this application are based on machine learning predictions and should not be considered official insurance decisions.
 
 Users should consult qualified insurance professionals before making financial or healthcare-related decisions.
 
 ---
 
-## Author
+## Contribution
+
+Contributions are welcome.
+
+Areas for improvement include:
+
+* User interface enhancements
+* Additional visualizations
+* Model optimization
+* New analytical features
+* Performance improvements
+
+---
+
+## Contact
 
 **Amit Sharma**
 
-GitHub: https://github.com/AmitSharma9754
-
 Email: [amitsharma97545@gmail.com](mailto:amitsharma97545@gmail.com)
+
+GitHub: https://github.com/AmitSharma9754
